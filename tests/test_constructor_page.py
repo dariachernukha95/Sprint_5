@@ -1,8 +1,7 @@
-import time
-
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 from locators import Locators
+
 class TestConstructorPage:
     def test_press_constructor_button_from_personal_account(self,driver,log_in):
         driver.find_element(*Locators.PERSONAL_ACCOUNT_BUTTON).click()

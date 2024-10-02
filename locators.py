@@ -1,4 +1,5 @@
 from selenium.webdriver.common.by import By
+
 class Locators:
     # Кнопка Войти в аккаунт/Оформить заказ на главной странице
     LOGIN_INTO_ACCOUNT_BUTTON = (By.XPATH, "//button[@class = 'button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg']")
@@ -42,6 +43,3 @@ class Locators:
     FILLING_PAGE = (By.XPATH, "//span[text() = 'Начинки']")
     # Активная вкладка
     ACTIVE_PAGE = (By.XPATH, "//div[@class = 'tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect']")
-
-
-

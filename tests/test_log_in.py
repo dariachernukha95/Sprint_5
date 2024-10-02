@@ -1,6 +1,7 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 from locators import Locators
+
 class TestLogIn:
     def test_login_by_login_button_on_main_page(self,driver):
         driver.find_element(*Locators.LOGIN_INTO_ACCOUNT_BUTTON).click()

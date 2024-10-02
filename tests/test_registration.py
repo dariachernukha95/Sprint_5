@@ -2,6 +2,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 from locators import Locators
 from registration_data import RegistrationData
+
 class TestRegistration:
     def test_registration_success(self,driver):
         driver.find_element(*Locators.LOGIN_INTO_ACCOUNT_BUTTON).click()
